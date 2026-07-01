@@ -31,4 +31,4 @@ reports/*.json
 !samples/*.log
 !samples/README.md
 
-.lh/.lh/
+.lh/
