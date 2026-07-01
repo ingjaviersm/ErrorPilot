@@ -21,14 +21,14 @@ reports/*.html
 reports/*.xlsx
 reports/*.csv
 reports/*.json
+!reports/.gitkeep
 
-# Logs
+# Ignore log files everywhere...
 *.log
 
-# Generated reports
-reports/*.html
-reports/*.json
-reports/*.csv
-!reports/.gitkeep
+# ...except the sample logs included in the repository
+!samples/
+!samples/*.log
+!samples/README.md
 
 .lh/

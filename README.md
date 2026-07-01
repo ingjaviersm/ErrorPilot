@@ -1,54 +1,49 @@
+<p align="center">
+
+<img src="docs/images/logo.png" width="120">
+
 # ErrorPilot
 
-> Stop reading thousands of log lines. Start fixing what really matters.
+### Analyze. Prioritize. Fix.
 
-ErrorPilot is an open source tool that analyzes PHP log files and transforms them into actionable insights, helping developers prioritize and resolve issues faster.
+Open Source PHP Log Analyzer & Interactive Error Diagnostics Dashboard.
 
-## What problem does it solve?
+<p>
 
-Large PHP applications often generate log files containing tens or even hundreds of thousands of repeated entries. Finding the issues that truly matter can be time-consuming and frustrating.
+<img src="https://img.shields.io/badge/Python-3.11+-3776AB?logo=python">
 
-ErrorPilot automatically groups similar errors, identifies the most affected files, and generates an interactive HTML dashboard that makes log analysis much easier.
+<img src="https://img.shields.io/badge/License-MIT-green">
 
-## Features
+<img src="https://img.shields.io/badge/Open%20Source-Yes-blue">
 
-- PHP log parser
-- Error normalization
-- Smart error prioritization
-- Interactive HTML dashboard
-- JSON and CSV export
-- Filters by level, file, and text
-- Searchable error table
+<img src="https://img.shields.io/badge/PHP-Logs-777BB4">
 
-## Quick Start
+</p>
 
-```bash
-python analyzer.py samples/php-errors.log --serve
-```
+</p>
 
-The command will:
+---
 
-1. Analyze the log file.
-2. Generate the reports.
-3. Start a local web server.
-4. Open the interactive dashboard automatically.
+<p align="center">
 
-## Use Cases
+<img src="docs/images/dashboard.png">
 
-- ERP systems
-- Legacy PHP applications
-- Laravel
-- Symfony
-- WordPress
-- CodeIgniter
-- Custom PHP applications
+</p>
 
-## Roadmap
+---
 
-- File ranking
-- File detail view
-- Health Score
-- Log comparison
-- Analysis history
-- Automatic recommendations
-- Optional AI integration
+## Why ErrorPilot?
+
+Instead of reading **200,000 log lines**...
+
+ErrorPilot automatically:
+
+✔ Groups duplicated errors
+
+✔ Prioritizes issues
+
+✔ Finds the most problematic files
+
+✔ Generates an interactive dashboard
+
+✔ Helps you fix the right problems first
