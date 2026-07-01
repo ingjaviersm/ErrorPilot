@@ -1,61 +1,71 @@
+<div align="center">
+
 # ErrorPilot
 
-> Deja de leer miles de líneas de logs. Empieza a corregir lo que
-> realmente importa.
+### Analiza. Prioriza. Corrige.
 
-ErrorPilot es una herramienta para analizar archivos de log de
-PHP y transformarlos en información útil para priorizar la corrección de
-errores.
+Analizador Open Source para logs de PHP.
 
-## ¿Qué problema resuelve?
+Convierte miles de líneas de log en un dashboard interactivo.
 
-En proyectos grandes es común encontrar archivos de log con decenas o
-cientos de miles de líneas repetidas. Encontrar los problemas realmente
-importantes consume tiempo.
+<br>
 
-Esta herramienta agrupa automáticamente los errores, identifica los
-archivos más afectados y genera un dashboard HTML interactivo para
-facilitar el análisis.
+![Python](https://img.shields.io/badge/Python-3.11+-3776AB?logo=python&logoColor=white)
+![Licencia](https://img.shields.io/badge/Licencia-MIT-green)
+![Dashboard](https://img.shields.io/badge/Dashboard-HTML-blue)
+![PHP](https://img.shields.io/badge/PHP-Logs-777BB4?logo=php&logoColor=white)
 
-## Características
+<br><br>
 
--   Parser para logs de PHP.
--   Normalización de errores repetitivos.
--   Clasificación por prioridad.
--   Dashboard HTML.
--   Exportación JSON y CSV.
--   Filtros por nivel, archivo y texto.
--   Búsqueda de errores.
+<img src="docs/images/errorpilot-social-preview.png" width="100%">
 
-## Instalación rápida
+</div>
 
-``` bash
-python analyzer.py samples/30062026.txt --serve
+---
+
+## Un solo comando.
+
+```bash
+python analyzer.py samples/php-errors.log --serve
 ```
 
-El comando:
+Eso es todo.
 
-1.  Analiza el log.
-2.  Genera los reportes.
-3.  Levanta un servidor local.
-4.  Abre automáticamente el dashboard.
+ErrorPilot analiza el log, agrupa errores repetidos, prioriza los problemas más importantes, genera un dashboard interactivo y lo abre automáticamente en tu navegador.
 
-## Casos de uso
+---
 
--   ERP
--   Sistemas legacy en PHP
--   Laravel
--   Symfony
--   WordPress
--   CodeIgniter
--   Aplicaciones PHP personalizadas
+## Compatible con
 
-## Roadmap
+- PHP
+- Laravel
+- Symfony
+- WordPress
+- CodeIgniter
+- Aplicaciones PHP personalizadas
 
--   Ranking de archivos.
--   Vista por archivo.
--   Health Score.
--   Comparación entre logs.
--   Historial.
--   Recomendaciones automáticas.
--   Integración opcional con IA.
+---
+
+## Obtendrás
+
+- Dashboard HTML interactivo
+- Priorización inteligente
+- Normalización de errores
+- Ranking de archivos
+- Tabla con búsqueda
+- Exportación a JSON y CSV
+
+---
+
+## Documentación
+
+| Documento | Descripción |
+|-----------|-------------|
+| GUIA.md | Guía de uso |
+| DEVELOPER.md | Arquitectura |
+| ROADMAP.md | Próximas funciones |
+| CHANGELOG.md | Historial de versiones |
+
+---
+
+Licencia MIT.

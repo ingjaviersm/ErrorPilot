@@ -4,31 +4,70 @@
 
 ### Analyze. Prioritize. Fix.
 
-Open Source PHP Log Analyzer & Interactive Error Diagnostics Dashboard.
+Open-source PHP Log Analyzer.
+
+Turn thousands of PHP log lines into an interactive dashboard.
 
 <br>
 
 ![Python](https://img.shields.io/badge/Python-3.11+-3776AB?logo=python&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green)
-![Open Source](https://img.shields.io/badge/Open%20Source-Yes-blue)
-![PHP Logs](https://img.shields.io/badge/PHP-Logs-777BB4?logo=php&logoColor=white)
+![Dashboard](https://img.shields.io/badge/Dashboard-HTML-blue)
+![PHP](https://img.shields.io/badge/PHP-Logs-777BB4?logo=php&logoColor=white)
 
 <br><br>
 
-<img src="docs/images/errorpilot-social-preview.png" alt="ErrorPilot Preview" width="100%">
+<img src="docs/images/errorpilot-social-preview.png" width="100%">
 
 </div>
 
 ---
 
-## Why ErrorPilot?
+## One command.
 
-Instead of reading **200,000 log lines**...
+```bash
+python analyzer.py samples/php-errors.log --serve
+```
 
-ErrorPilot automatically:
+That's it.
 
-- Groups duplicated errors
-- Prioritizes issues
-- Finds the most problematic files
-- Generates an interactive dashboard
-- Helps you fix the right problems first
+ErrorPilot analyzes your log, groups duplicated errors, prioritizes what matters, generates an interactive dashboard, and opens it in your browser.
+
+---
+
+## Built for PHP developers.
+
+Works with:
+
+- PHP
+- Laravel
+- Symfony
+- WordPress
+- CodeIgniter
+- Custom applications
+
+---
+
+## What you'll get
+
+- Interactive HTML dashboard
+- Smart error prioritization
+- Error normalization
+- File ranking
+- Searchable error table
+- JSON & CSV export
+
+---
+
+## Documentation
+
+| Document | Description |
+|----------|-------------|
+| GUIDE.md | Usage guide |
+| DEVELOPER.md | Architecture |
+| ROADMAP.md | Planned features |
+| CHANGELOG.md | Release history |
+
+---
+
+MIT License.
