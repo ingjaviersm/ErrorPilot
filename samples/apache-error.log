@@ -1,0 +1,1 @@
+[Mon Jul 01 09:14:22.126531 2026] [php:warn] PHP Warning: Undefined array key "customer_id" in /var/www/html/app/Controllers/OrderController.php on line 77

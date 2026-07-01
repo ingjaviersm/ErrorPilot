@@ -1,0 +1,6 @@
+[01-Jul-2026 09:14:32 UTC] PHP Warning: Undefined array key "customer_id" in /var/www/html/app/Controllers/OrderController.php on line 77
+
+[01-Jul-2026 09:14:41 UTC] PHP Fatal error: Uncaught Error: Call to a member function save() on null in /var/www/html/app/Services/InvoiceService.php:341
+Stack trace:
+#0 /var/www/html/app/Controllers/InvoiceController.php(92): InvoiceService->generate()
+#1 {main}

@@ -1,0 +1,1 @@
+[2026-07-01T09:18:54.551129+00:00] request.CRITICAL: Uncaught PHP Exception Error: Call to a member function getId() on null
