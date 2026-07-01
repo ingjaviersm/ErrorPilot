@@ -1,0 +1,18 @@
+{
+    "sourceFile": "docs/es/ROADMAP.md",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1782944385082,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1782944385082,
+            "name": "Commit-0",
+            "content": "# Roadmap\n\n## v1.1\n\n### Dashboard\n\n-   [ ] Ranking de archivos.\n-   [ ] Vista por archivo.\n-   [ ] Health Score.\n-   [ ] Top líneas con más incidencias.\n-   [ ] Mejoras visuales.\n\n### Comparación\n\n-   [ ] Comparar dos logs.\n-   [ ] Detectar errores nuevos.\n-   [ ] Detectar errores corregidos.\n-   [ ] Calcular porcentaje de mejora.\n\n### Historial\n\n-   [ ] Guardar análisis anteriores.\n-   [ ] Dashboard histórico.\n-   [ ] Tendencias.\n\n------------------------------------------------------------------------\n\n## v1.2\n\n### Recomendaciones\n\n-   [ ] Motor de reglas.\n-   [ ] Explicación de errores.\n-   [ ] Buenas prácticas PHP.\n-   [ ] Posibles soluciones.\n\n### Exportadores\n\n-   [ ] Excel.\n-   [ ] Markdown.\n-   [ ] PDF.\n-   [ ] Discord.\n-   [ ] Slack.\n-   [ ] Microsoft Teams.\n\n------------------------------------------------------------------------\n\n## v2.0\n\n### Proyecto\n\n-   [ ] Analizar una carpeta completa.\n-   [ ] Analizar múltiples logs.\n-   [ ] Configuración por proyecto.\n\n### Código fuente\n\n-   [ ] Abrir automáticamente el archivo.\n-   [ ] Mostrar contexto del error.\n-   [ ] Resaltar la línea.\n\n### Inteligencia Artificial\n\n-   [ ] OpenAI.\n-   [ ] Ollama.\n-   [ ] DeepSeek.\n-   [ ] Claude.\n\n### CLI\n\n-   [ ] Comando instalable (`errorpilot`).\n\n### Observabilidad\n\n-   [ ] Modo tiempo real.\n-   [ ] Monitoreo continuo.\n-   [ ] Auto refresco.\n\n### Calidad\n\n-   [ ] Tests unitarios.\n-   [ ] GitHub Actions.\n-   [ ] Cobertura de pruebas.\n"
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "sourceFile": ".gitignore",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 4,
+            "patches": [
+                {
+                    "date": 1782856102893,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1782943786720,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,5 +22,10 @@\n reports/*.csv\n reports/*.json\n \n # Logs\n-*.log\n\\ No newline at end of file\n+*.log\n+\n+# Generated reports\n+reports/report.html\n+reports/report.json\n+reports/report.csv\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1782944294834,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,7 +25,8 @@\n # Logs\n *.log\n \n # Generated reports\n-reports/report.html\n-reports/report.json\n-reports/report.csv\n\\ No newline at end of file\n+reports/*.html\n+reports/*.json\n+reports/*.csv\n+!reports/.gitkeep\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1782945067062,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,5 +28,7 @@\n # Generated reports\n reports/*.html\n reports/*.json\n reports/*.csv\n-!reports/.gitkeep\n\\ No newline at end of file\n+!reports/.gitkeep\n+\n+.lh/\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1782947465157,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,15 +20,15 @@\n reports/*.html\n reports/*.xlsx\n reports/*.csv\n reports/*.json\n+!reports/.gitkeep\n \n-# Logs\n+# Ignore log files everywhere...\n *.log\n \n-# Generated reports\n-reports/*.html\n-reports/*.json\n-reports/*.csv\n-!reports/.gitkeep\n+# ...except the sample logs included in the repository\n+!samples/\n+!samples/*.log\n+!samples/README.md\n \n .lh/\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1782856102893,
+            "name": "Commit-0",
+            "content": "# Python\n__pycache__/\n*.py[cod]\n*.pyo\n\n# Virtual Environment\n.venv/\nvenv/\n\n# macOS\n.DS_Store\n\n# VS Code\n.vscode/\n\n# PyCharm\n.idea/\n\n# Generated reports\nreports/*.html\nreports/*.xlsx\nreports/*.csv\nreports/*.json\n\n# Logs\n*.log"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "sourceFile": "CHANGELOG.md",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1782944109986,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1782944109986,
+            "name": "Commit-0",
+            "content": "# Changelog\n\nAll notable changes to this project will be documented in this file.\n\nThis project follows the **Keep a Changelog** format and adheres to **Semantic Versioning (SemVer)**.\n\n---\n\n# [1.0.0] - 2026-06-30\n\n## Added\n\n### Analysis Engine\n\n- PHP log parser.\n- Line-by-line processing to support large log files.\n- Error normalization.\n- Smart error prioritization.\n- Filters by level, file, and text.\n- Analysis engine (`AnalyzerEngine`).\n- Unified result model (`AnalysisResult`).\n\n### Exporters\n\n- Console output.\n- JSON export.\n- CSV export.\n- Interactive HTML dashboard.\n\n### Dashboard\n\n- Key performance indicators (KPIs).\n- Normalized issues chart.\n- Searchable interactive table.\n- Dark theme.\n\n### CLI\n\n- `--json`\n- `--csv`\n- `--html`\n- `--serve`\n\n### Documentation\n\n- README\n- GUIDE\n- DEVELOPER\n\n---\n\n## Upcoming\n\nSee `ROADMAP.md`."
+        }
+    ]
+}

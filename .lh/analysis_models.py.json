@@ -1,0 +1,18 @@
+{
+    "sourceFile": "analysis_models.py",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1782858354936,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1782858354936,
+            "name": "Commit-0",
+            "content": "from dataclasses import dataclass, field\nfrom typing import Dict, List\n\nfrom models import LogEntry\n\n\n@dataclass\nclass Summary:\n    total_events: int = 0\n    first_event: str = \"\"\n    last_event: str = \"\"\n\n    levels: Dict[str, int] = field(default_factory=dict)\n    priorities: Dict[str, int] = field(default_factory=dict)\n\n\n@dataclass\nclass ProblemSummary:\n    message: str\n    priority: str\n    count: int\n\n\n@dataclass\nclass SpecificError:\n    message: str\n    file_name: str\n    line: int\n    count: int\n\n\n@dataclass\nclass FileSummary:\n    file_name: str\n    total_events: int\n    score: int\n    problems: Dict[str, int]\n\n\n@dataclass\nclass AnalysisResult:\n    summary: Summary\n\n    normalized_problems: List[ProblemSummary] = field(default_factory=list)\n\n    specific_errors: List[SpecificError] = field(default_factory=list)\n\n    files: List[FileSummary] = field(default_factory=list)\n\n    entries: List[LogEntry] = field(default_factory=list)"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "sourceFile": "docs/es/TODO.md",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1782943961978,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1782943961978,
+            "name": "Commit-0",
+            "content": "# TODO\n\n## v1.1\n\n### Dashboard\n\n- [ ] Ranking de archivos problemáticos.\n- [ ] Vista por archivo (modal).\n- [ ] Health Score.\n- [ ] Top líneas con más errores.\n- [ ] Colores por prioridad en gráficas.\n- [ ] Tooltip con mensaje completo.\n- [ ] Exportar gráfica como PNG.\n- [ ] Modo claro.\n\n---\n\n### Tabla\n\n- [ ] Ordenar columnas.\n- [ ] Paginación.\n- [ ] Exportar tabla filtrada.\n- [ ] Filtro por prioridad.\n- [ ] Filtro por archivo.\n- [ ] Filtro por rango de ocurrencias.\n- [ ] Copiar fila.\n\n---\n\n### Comparación\n\n- [ ] Comparar dos logs.\n- [ ] Detectar problemas nuevos.\n- [ ] Detectar problemas resueltos.\n- [ ] Calcular porcentaje de mejora.\n- [ ] Mostrar diferencias visuales.\n\n---\n\n### Historial\n\n- [ ] Guardar análisis anteriores.\n- [ ] Dashboard histórico.\n- [ ] Tendencia diaria.\n- [ ] Tendencia semanal.\n- [ ] Evolución del Health Score.\n\n---\n\n### Motor\n\n- [ ] Más reglas de normalización.\n- [ ] Detectar excepciones.\n- [ ] Detectar stack traces.\n- [ ] Soporte para logs multilínea.\n- [ ] Configuración mediante TOML.\n\n---\n\n### CLI\n\n- [ ] Comando instalable.\n- [ ] Configuración persistente.\n- [ ] Colores ANSI.\n- [ ] Barra de progreso.\n- [ ] Auto actualización.\n\n---\n\n### Exportadores\n\n- [ ] Excel.\n- [ ] Markdown.\n- [ ] PDF.\n- [ ] Discord.\n- [ ] Slack.\n- [ ] Microsoft Teams.\n\n---\n\n### Recomendaciones\n\n- [ ] Motor de reglas.\n- [ ] Explicación de errores.\n- [ ] Posibles soluciones.\n- [ ] Buenas prácticas PHP.\n\n---\n\n### IA (Opcional)\n\n- [ ] OpenAI.\n- [ ] Ollama.\n- [ ] DeepSeek.\n- [ ] Claude.\n- [ ] Explicación automática.\n- [ ] Generación de patch.\n\n---\n\n### Código\n\n- [ ] Tests unitarios.\n- [ ] GitHub Actions.\n- [ ] Ruff.\n- [ ] Black.\n- [ ] Cobertura de pruebas.\n\n---\n\n## v2.0\n\n### Navegación del proyecto\n\n- [ ] Abrir archivo desde el dashboard.\n- [ ] Mostrar código alrededor del error.\n- [ ] Resaltar la línea.\n- [ ] Buscar errores relacionados.\n\n---\n\n### Proyecto\n\n- [ ] Analizar una carpeta completa.\n- [ ] Analizar múltiples logs.\n- [ ] Ignorar directorios.\n- [ ] Configuración por proyecto.\n\n---\n\n### Observabilidad\n\n- [ ] Modo tiempo real.\n- [ ] Monitorear un archivo.\n- [ ] Auto refresco.\n- [ ] Notificaciones.\n\n---\n\n### Integraciones\n\n- [ ] VSCode.\n- [ ] PhpStorm.\n- [ ] Docker.\n- [ ] Git Hooks.\n\n---\n\n## Ideas\n\n- [ ] Score por archivo.\n- [ ] Score por módulo.\n- [ ] Score por desarrollador.\n- [ ] Score por commit.\n- [ ] Score por rama.\n\n- [ ] Ranking de deuda técnica.\n\n- [ ] Timeline interactivo.\n\n- [ ] Heatmap de errores.\n\n- [ ] Dashboard ejecutivo.\n\n- [ ] Dashboard técnico.\n\n- [ ] Modo CI/CD.\n\n- [ ] Generar reporte antes/después de un refactor.\n\n- [ ] Detectar regresiones automáticamente.\n\n- [ ] Compartir reporte mediante URL.\n\n- [ ] Tema Metrify.\n\n- [ ] Tema Grafana.\n\n- [ ] Tema GitHub Dark.\n\n---\n\n## Algún día...\n\n- [ ] Abrir automáticamente el archivo fuente.\n\n- [ ] Mostrar el código alrededor del error.\n\n- [ ] Explicar el error.\n\n- [ ] Proponer la corrección.\n\n- [ ] Aplicar la corrección.\n\n- [ ] Generar Pull Request."
+        }
+    ]
+}
